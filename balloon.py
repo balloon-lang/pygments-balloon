@@ -3,7 +3,7 @@ from pygments.token import *
 
 class CustomLexer(RegexLexer):
     name = 'Balloon'
-    aliases = ['balloon']
+    aliases = ['balloon', 'bl']
     filenames = '*.bl'
 
     tokens = {
